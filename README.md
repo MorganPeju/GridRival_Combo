@@ -5,7 +5,7 @@ This code allows to get the best combos of drivers+team based on their values ($
 
 🚩 NB 🚩
 - It produces all the combos that you can make with the budget you have in the game. It does not try predict the result of the Grand Prix. 
-- Keep in mind that the team with the highest value is not necessarly the best one.
+- Keep in mind that the team with the highest value is not necessarly the best one (but still a good criterion).
 
 1. Set the budget of your team
 2. (Option) Set specific drivers and the team that you really want
