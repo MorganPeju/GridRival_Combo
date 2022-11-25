@@ -1,0 +1,12 @@
+name: Test trigger
+on:
+  repository_dispatch:
+    types:
+      - run-test
+jobs:
+  test:
+    name: Run test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo Hello
