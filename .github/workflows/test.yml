@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types:
-      - run-test
+      - [run-test]
 jobs:
   test:
     name: Run test
